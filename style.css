@@ -2,4 +2,42 @@
     margin-left: 25px;
     list-style: square;
 }
+img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+body {
+    background-color: rgb(244, 247, 225);
+}
+a {
+    text-decoration: none;
+}
+
+#titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#bandeiras {
+    width: 70px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.botoes_proximo{
+    border: 2px solid red;
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+.botoes_proximo:hover{
+    border-color: blue;
+}
+
 
